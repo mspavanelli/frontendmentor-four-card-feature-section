@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .card {
+    @apply h-56 border-t-4 p-7 mb-6 shadow-xl rounded-lg flex flex-col justify-between;
+  }
+
+  .card h2 {
+    @apply font-bold text-xl text-gray-dark mb-2;
+  }
+
+  .card p {
+    @apply text-sm text-gray-regular;
+  }
+
+  .card img {
+    @apply block w-14 mt-auto ml-auto;
+  }
+}

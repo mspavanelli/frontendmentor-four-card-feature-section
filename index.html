@@ -6,46 +6,57 @@
 
     <title>Frontend Mentor | Four card feature section</title>
 
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="./images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body>
-    <header>
-      <h1>Reliable, efficient delivery</h1>
+  <body class="bg-gray-light">
+    <div class="container h-full min-h-screen mt-24 mb-20 mx-8 w-auto">
+      <header class="text-gray-dark text-2xl text-center mb-4">
+        <h1 class="font-light tracking-wide mb-1">
+          Reliable, efficient delivery
+        </h1>
 
-      <strong> Powered by Technology </strong>
-    </header>
+        <strong class="tracking-wide">Powered by Technology</strong>
+      </header>
 
-    <p>
-      Our Artificial Intelligence powered tools use millions of project data
-      points to ensure that your project is successful
-    </p>
-
-    <div class="card">
-      <h2>Supervisor</h2>
-      <p>Monitors activity to identify project roadblocks</p>
-
-      <img src="./images/icon-supervisor.svg" alt="" />
-    </div>
-
-    <div class="card">
-      <h2>Team Builder</h2>
-      <p>
-        Scans our talent network to create the optimal team for your project
+      <p class="text-gray-regular text-center font-light mb-20">
+        Our Artificial Intelligence powered tools use millions of project data
+        points to ensure that your project is successful
       </p>
-      <img src="./images/icon-team-builder.svg" alt="" />
-    </div>
 
-    <div class="card">
-      <h2>Karma</h2>
-      <p>Regularly evaluates our talent to ensure quality</p>
-      <img src="./images/icon-karma.svg" alt="" />
-    </div>
+      <div class="card border-cyan">
+        <div>
+          <h2>Supervisor</h2>
+          <p>Monitors activity to identify project roadblocks</p>
+        </div>
 
-    <div class="card">
-      <h2>Calculator</h2>
-      <p>Uses data from past projects to provide better delivery estimates</p>
-      <img src="./images/icon-calculator.svg" alt="" />
+        <img src="./images/icon-supervisor.svg" alt="" />
+      </div>
+
+      <div class="card border-red">
+        <h2>Team Builder</h2>
+        <p>
+          Scans our talent network to create the optimal team for your project
+        </p>
+        <img src="./images/icon-team-builder.svg" alt="" />
+      </div>
+
+      <div class="card border-orange">
+        <h2>Karma</h2>
+        <p>Regularly evaluates our talent to ensure quality</p>
+        <img src="./images/icon-karma.svg" alt="" />
+      </div>
+
+      <div class="card border-blue">
+        <h2>Calculator</h2>
+        <p>Uses data from past projects to provide better delivery estimates</p>
+        <img src="./images/icon-calculator.svg" alt="" />
+      </div>
     </div>
   </body>
 </html>
